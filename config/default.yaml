@@ -1,0 +1,6 @@
+app:
+  name: "neuromorphic-spiking-circuit-mapper"
+  environment: "production"
+  logging:
+    level: "INFO"
+    format: "json"

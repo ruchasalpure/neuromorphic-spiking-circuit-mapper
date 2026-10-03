@@ -1,0 +1,26 @@
+spec_version: "0.1.0"
+name: "neuromorphic-spiking-circuit-mapper"
+version: "1.0.0"
+category: "research"
+author: "Rucha Salpure"
+description: "Maps continuous artificial neural network activations into discrete Leaky Integrate-and-Fire (LIF) spike trains optimized for sub-milliwatt neuromorphic cores"
+capabilities:
+  - "lif-spike-train-synthesis"
+  - "autonomous-decision-making"
+  - "explainable-auditing"
+  - "multi-agent-collaboration"
+skills:
+  - "lif-spike-train-synthesis"
+tools:
+  - "python_executor"
+  - "audit_logger"
+  - "schema_validator"
+runtime:
+  environment: "python3.11"
+  memory_limit: "4GB"
+  timeout_seconds: 300
+governance:
+  audit_logging: true
+  human_in_the_loop: false
+  maker_checker: true
+  explainability_required: true

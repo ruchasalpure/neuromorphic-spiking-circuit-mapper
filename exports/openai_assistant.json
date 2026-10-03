@@ -1,0 +1,10 @@
+{
+  "name": "neuromorphic-spiking-circuit-mapper",
+  "instructions": "You are Neuromorphic Spiking Circuit Mapper. Provide structured, verified responses.",
+  "tools": [
+    {
+      "type": "code_interpreter"
+    }
+  ],
+  "model": "gpt-4o"
+}
