@@ -1,4 +1,0 @@
-spec: nanobot/v1
-name: neuromorphic-spiking-circuit-mapper
-runtime: python3.11
-entrypoint: agent.py

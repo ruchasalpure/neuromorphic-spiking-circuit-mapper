@@ -1,26 +1,30 @@
 spec_version: "0.1.0"
-name: "neuromorphic-spiking-circuit-mapper"
-version: "1.0.0"
-category: "research"
+name: neuromorphic-spiking-circuit-mapper
+version: 1.0.0
+description: Maps continuous artificial neural network activations into discrete Leaky Integrate-and-Fire (LIF) spike trains optimized for sub-milliwatt neuromorphic cores.
 author: "Rucha Salpure"
-description: "Maps continuous artificial neural network activations into discrete Leaky Integrate-and-Fire (LIF) spike trains optimized for sub-milliwatt neuromorphic cores"
-capabilities:
-  - "lif-spike-train-synthesis"
-  - "autonomous-decision-making"
-  - "explainable-auditing"
-  - "multi-agent-collaboration"
+license: MIT
+model:
+  preferred: claude-opus-4-6
+  fallback:
+    - claude-sonnet-4-5-20250929
+  constraints:
+    temperature: 0.2
+    max_tokens: 4096
 skills:
-  - "lif-spike-train-synthesis"
-tools:
-  - "python_executor"
-  - "audit_logger"
-  - "schema_validator"
+  - lif-spike-train-synthesis
+tools: []
+delegation:
+  mode: auto
 runtime:
-  environment: "python3.11"
-  memory_limit: "4GB"
-  timeout_seconds: 300
-governance:
-  audit_logging: true
-  human_in_the_loop: false
-  maker_checker: true
-  explainability_required: true
+  max_turns: 50
+  timeout: 300
+compliance:
+  risk_tier: standard
+  frameworks: []
+tags:
+  - research
+  - autonomous-agent
+  - opengap-verified
+metadata:
+  repository: "https://github.com/ruchasalpure/neuromorphic-spiking-circuit-mapper"

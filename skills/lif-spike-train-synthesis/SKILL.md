@@ -1,17 +1,25 @@
 ---
-name: "lif-spike-train-synthesis"
-description: "Calibrates membrane resting potentials, threshold voltages, and refractory periods to preserve rate-coded information density"
-version: "1.0.0"
-category: "research"
+name: lif-spike-train-synthesis
+description: Specialized capability for Neuromorphic Spiking Circuit Mapper.
+license: MIT
+allowed-tools: ""
+metadata:
+  author: "Rucha Salpure"
+  version: "1.0.0"
+  category: research
 ---
 
-# Skill: lif-spike-train-synthesis
+# Neuromorphic Spiking Circuit Mapper — LIF SPIKE TRAIN SYNTHESIS Skill
 
-## Overview
-Calibrates membrane resting potentials, threshold voltages, and refractory periods to preserve rate-coded information density.
+## Purpose
+The `lif-spike-train-synthesis` capability provides high-assurance execution routines for `Neuromorphic Spiking Circuit Mapper`.
 
-## Execution Steps
-1. Parse and validate runtime parameters against the formal domain schema.
-2. Execute core computational and heuristic analysis pipeline.
-3. Format structured observations for Maker-Checker dual control review.
-4. Log all telemetry and performance metrics to the governance ledger.
+## Execution Workflow
+1. Validate input parameters against typed schemas and invariant constraints.
+2. Ingest contextual metrics and establish a deterministic baseline.
+3. Formulate candidate recommendations with explicit confidence intervals.
+4. Submit draft plans to the independent checker agent for verification.
+
+## Boundary Conditions
+- **Input validation:** Reject non-conforming or malformed payloads before evaluation.
+- **Fail-safe:** Escalate immediately if telemetry indicators exhibit critical anomalies.
